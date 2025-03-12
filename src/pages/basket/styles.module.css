@@ -1,0 +1,18 @@
+.imageContent {
+  width: 120px;
+  max-height: 300px;
+}
+.Images {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Images:hover {
+  border: 2px solid #3498db; /* Üzerine gelindiğinde mavi çerçeve */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Daha belirgin gölge */
+}
+.basketButton {
+  margin: 0 !important;
+}
