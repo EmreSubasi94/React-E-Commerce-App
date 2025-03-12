@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon src/app.js",
-    "build": "sucrase ./src -d ./dist --transforms imports,jsx"
+    "build": "sucrase ./src -d ./dist --transforms imports"
   },
   "dependencies": {
     "accesscontrol": "^2.2.1",
@@ -23,9 +23,7 @@
     "mongoose": "^5.12.3",
     "mongoose-sequence": "^6.0.1",
     "rate-limit-redis": "^2.1.0",
-    "react-scripts": "^5.0.1"
-  },
-  "devDependencies": {
-    "sucrase": "^3.35.0"
+    "react-scripts": "^5.0.1",
+    "sucrase": "^3.18.1"
   }
 }
